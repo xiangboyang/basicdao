@@ -16,7 +16,7 @@ public class ConnectionFactory {
 
 	private static DataSource ds;
 	
-	// 静态块给DataSource赋值
+	// 静态块给---DataSource赋值
 	static{
 		//获取tomcat的连接池对象
 		BasicDataSource bds = new BasicDataSource();
