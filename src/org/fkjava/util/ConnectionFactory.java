@@ -20,7 +20,7 @@ public class ConnectionFactory {
 	static{
 		//获取tomcat的连接池对象
 		BasicDataSource bds = new BasicDataSource();
-		//设置连接参数
+		//设置连接   参数
 		bds.setDriverClassName("com.mysql.jdbc.Driver");
 		bds.setUrl("jdbc:mysql://192.168.10.222:3306/reflect");
 		bds.setUsername("root");
